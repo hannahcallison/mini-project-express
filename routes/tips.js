@@ -1,5 +1,5 @@
 const tips = require('express').Router();
-const { readFromFile, readAndAppend } = require('../../helpers/fsUtils');
+const { readFromFile, readAndAppend } = require('../helpers/fsUtils');
 const { v4: uuidv4 } = require('uuid');
 
 // GET Route for retrieving all the tips
